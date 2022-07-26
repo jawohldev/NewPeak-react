@@ -37,7 +37,7 @@ function App() {
               </div>
               <div className="Service-card">
                 <h2>UI/UX Design</h2>
-                <p>Our Senior React dev @TrissisWaifu will solve your needs</p>
+                <p>Our Senior React dev @TrissisWaifu will make your website nice and easy to use</p>
               </div>
               <div className="Service-card">
                 <h2>Web App Creation and Testing</h2>
@@ -45,7 +45,7 @@ function App() {
               </div>
               <div className="Service-card">
                 <h2>Maintenance &amp; Updates</h2>
-                <p>Yeah we'll fix the garbage made by your indian coders too</p>
+                <p>We'll make sure your code is nice and clean</p>
               </div>
             </div>
           </div>
