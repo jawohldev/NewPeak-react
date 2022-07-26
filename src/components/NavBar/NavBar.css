@@ -1,0 +1,36 @@
+.NavBar {
+    position: fixed;
+    z-index: 2;
+    width: 100%
+    
+}
+hr {
+    color:#fff;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+.nav-bar-flex img {
+    padding-left: 10px;
+    width: 75px;
+}
+.nav-bar-flex {
+    opacity: 75%;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    flex-direction:row;
+    list-style: none;
+}
+a{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(30 + 2vmin);
+    opacity: 150%;
+    color: white;
+    text-decoration: none;
+}

@@ -1,3 +1,6 @@
+body {
+  background-color: #024d6d;
+}
 .App {
   text-align: center;
 }
@@ -5,34 +8,131 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+  
 
+}
+.bg-mountain {
+ position: fixed;
+ z-index: -3; 
+ left: calc( -1010px + 50vw  )
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.NewPeakTitle{
+  font-size: calc( 9vmin);
+  
+  position: relative;
+  top: calc(5.3vmin);
+  Color: #fff;
+  text-shadow: 0 0 1vmin #fff;
+  text-shadow: 0 0 2vmin #fff;
+  text-shadow: 0 0 3vmin #fff;
+  text-shadow: 0 0 4vmin #eee;
+  text-shadow: 0 0 5vmin #ddd;
+  
+}
+
+.Light-block {
+  min-height:33vh;
+  background-color: #e1e2e2;
+  
+}
+.Blue-block {
+  min-height:33vh;
+  height: 40vmin;
+  background-color: #064463;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content {
+  position: relative;
+ margin-left: auto;
+ margin-right: auto;
+  top: 63vh;
+  max-width: 2000px;
+  
+}
+.content img {
+  position: relative;
+  top: calc(12vmin);
+  width: 45vmin;
+  min-width: 300px;
+}
+.Block-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.Text-content {
+  margin: auto;
+  padding-top:5vmin;
+  inline-size:50vw;
+  min-width: 300px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 3vmin;
+  padding-bottom: 3vmin;
+
+}
+.Contact-button {
+  background-color: #d1d2d1;
+  width:30vmin;
+  min-height: 4vmin;
+  max-height: 4vmin;
+  margin: auto;
+  font-size: 3vmin;
+  border-radius: 2vmin;
+  color: #024d6d;
+}
+
+.Blue-block .Text-content {
+  color: #fff;
+}
+.Light-block .Text-content {
+  color: #064463;
+}
+.Light-block .Block-flex {
+  flex-direction: row;
+}
+.Summary {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+.Text-content h2 {
+  text-align: left;
+
+}
+.Text-content h4 {
+  text-align: left;
+}
+.Text-content p {
+  text-align: left;
+}
+.Services {
+  
+}
+.Services p{
+  inline-size: 30vmin;
+}
+.Service-card {
+  height: 37vmin;
+  position: relative;
+  top: -10px;
+  
+  background-color:#064463;
+  border-radius: .3em;
+  min-width: 40vmin;
+  color: #fff;
+  padding: 20px 20px 20px 20px0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
